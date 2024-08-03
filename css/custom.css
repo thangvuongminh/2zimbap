@@ -1,0 +1,24 @@
+body {
+    background-color: #404040;
+}
+.card {
+    background: linear-gradient(
+    to right,
+    #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #8b00ff
+  );
+}
+.card-price {
+    display: none;
+}
+.card-price.active {
+    display: block;
+}
+.money.all {
+    display: none;
+}
+@media (min-width:1000px)
+{
+    .container {
+        width: 1000px;
+    }
+}
